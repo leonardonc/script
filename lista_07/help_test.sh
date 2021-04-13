@@ -4,10 +4,10 @@
 #resolução da questão 01
 
 if [ "$1" = "logica" -o "$2" = "logica" -o "$3" = "logica" -o "$4" = "logica" -o "$5" = "logica" 2> /dev/null ];then
-	echo -e "\n\nAjuda sobre os parâmetros LÓGICOS do comando 'test':"
-	echo "'      ! EXPRESSION        ' - expressão falsa "
-	echo "'EXPRESSION1 -a EXPRESSION2' - ambas expressões são verdadeiras"
-	echo -e "'EXPRESSION1 -o EXPRESSION2' - qualquer expressão é verdadeira\n\n"
+	echo -e "\nAjuda sobre os parâmetros LÓGICOS do comando 'test':"
+	echo "      ! EXPRESSION         - expressão falsa "
+	echo "EXPRESSION1 -a EXPRESSION2 - ambas expressões são verdadeiras"
+	echo -e "EXPRESSION1 -o EXPRESSION2 - qualquer expressão é verdadeira\n"
 fi
 
 
@@ -23,7 +23,9 @@ fi
 if [ "$1" = "strings" -o "$2" = "strings" -o "$3" = "strings" -o "$4" = "strings" -o "$5" = "strings" 2> /dev/null ];then
 
 	echo -e "\nAjuda sobre os parâmetros para STRINGS do comando 'test':"
-	man test | grep "STRING1"
+	echo "STRING1 = STRING2  - as strings são iguais"
+	echo "STRING1 != STRING2 - as strings não são iguais"
+	#man test | grep "STRING1"
 fi
 
 
@@ -31,7 +33,9 @@ fi
 if [ "$1" = "variaveis" -o "$2" = "variaveis" -o "$3" = "variaveis" -o "$4" = "variaveis" -o "$5" = "variaveis" 2> /dev/null ];then
 
 	echo -e "\nAjuda sobre os parâmetros para VARIÁVEIS do comando 'test':"
-	man test | grep -w "STRING"
+	echo "-n STRING - o comprimento da string é diferente de zero"
+	echo "-z STRING - o comprimento da string é zero"
+	#man test | grep -w "STRING"
 fi
 
 
