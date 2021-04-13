@@ -15,7 +15,7 @@ fi
 if [ "$1" = "aritmetica" -o "$2" = "aritmetica" -o "$3" = "aritmetica" -o "$4" = "aritmetica" -o "$5" = "aritmetica" 2> /dev/null ];then
 
 	echo -e "\nAjuda sobre os parâmetros ARITMÉTICOS do comando 'test':"
-	man test | grep "INTEGER"
+	man test | grep "INTEGER1"
 fi
 
 
