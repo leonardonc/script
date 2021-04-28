@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#resolução da questão 1, script p/ imprimir uma linha específica de um dado arquivo
+
 a=$1
 n=$2
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#script para exibir um arquivo por partes
 
 read -p "digite o nome do arquivo: " arq
 
