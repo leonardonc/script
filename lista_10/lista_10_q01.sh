@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#script para listar segundo argumentos de linha de comando
 
 case $1 in
 	"a") echo "Listagem dos diretórios da pasta atual:"
