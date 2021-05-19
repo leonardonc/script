@@ -1,0 +1,6 @@
+Ranking Meninos
+1 Miguel
+2 Davi
+3 Arthur
+4 Pedro
+5 Gabriel
