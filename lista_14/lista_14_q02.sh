@@ -5,7 +5,7 @@ declare -A VETOR #declarando array associativo
 
 read -p "Digite o nome do arquivo: " arq
 
-l=$(wc -l q2 | awk '{print $1}') #num de linhas do arquivo
+l=$(wc -l $arq | awk '{print $1}') #num de linhas do arquivo
 
 
 #preenchendo o vetor com as chaves/nomes econtrados na primeira coluna do arquivo
